@@ -1,0 +1,747 @@
+extend ../templates/main
+append top
+	- var title = "Главная"
+
+append content
+	.hello(style="background-image: url('upload/bgs/bg-hello.png')")
+		.case
+			.hello__wrap
+				.hello__content
+					.hello__title.h1 Ремонт Land Rover в Москве 
+					.hello__subtitle.h3 Специализированный сервис
+					.hello__text.text
+						ul.check-o
+							li Гарантия от 1 года на запчасти и работы
+							li Механики с опытом от 10 лет
+							li Личная ответственность собственника
+					a.hello__btn.btn.--bg-orange.--md.--line.--line-op(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+				.hello__img
+					+img('land-rover-1.png')
+	.services
+		.case
+			.services__title.h2 Наши услуги для Вашего Land Rover
+			.services__text.h4 #[b.c-orange Акция!] Первый ремонт со скидкой 30% + кэшбэк от 5% до 11%
+			.services__list.row.i-top
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/car.svg')
+						.services__name Диагностика
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/engine.svg')
+						.services__name Ремонт двигателя
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/headlight.svg')
+						.services__name Ремонт электрики
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/chassis.svg')
+						.services__name Кузовной ремонт
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/transmission.svg')
+						.services__name Ремонт ходовой
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/tire.svg')
+						.services__name Шиномонтаж/#[br]сход-развал
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/drilling-machine.svg')
+						.services__name Слесарный ремонт
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/air-conditioning.svg')
+						.services__name Охлаждение/#[br]отопление
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/laptop.svg')
+						.services__name Чип-тюнинг
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/gearbox.svg')
+						.services__name Ремонт трансмиссии
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+				.services__item
+					.services__head
+						.services__icon
+							+img('icons/gearshift.svg')
+						.services__name Доп. оборудование
+					.services__body
+						ul
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика Webasto
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Комплексная диагностика
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика АКПП
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика электрики
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика двигателя
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика подвески
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика кондиционера
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Диагностика перед покупкой
+							li
+								a(data-fancybox data-src="#popup-callback" href="javascript:;")
+									span.t Компьютерная диагностика
+
+	.complex
+		.case
+			.complex__wrap.row.i-top
+				.complex__content
+					.complex__title.h2 Что входит в комплексную #[br]диагностику из 67 пунктов
+					.complex__text.text
+						ul
+							li проверка подвески;
+							li проверка тормозной системы;
+							li проверка двигателя;
+							li проверка трансмиссии;
+							li подключаем оригинальное диагностическое оборудование и проверяем все электрические системы автомобиля на наличие ошибок, неисправностей, а также необходимых обновлений программного обеспечения
+				.complex__slider.slider
+					.slider__list.arrows.--white
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/complex-1.jpg')")
+			.complex__desc.h4 Где и когда выполнять рекомендации Вы решаете сами, но мы уверены, #[br]что познакомившись с нами, Вы уже не поедете в другой сервис. Мы уверены в своём профессионализме, компетентности и адекватности цен.
+			a.complex__btn.btn.--bg-orange.--md.--line(data-fancybox data-src="#popup-order" href="javascript:;") Записаться со скидкой 72%
+
+	.problems.bg-gray
+		.case
+			.problems__title.h2.tac Наиболее распространённые проблемы, которые выявляются на диагностике Land Rover
+			.problems__subtitle.h3 Информация, собранная механиками с 10-летним опытом
+			.problems__list
+				.problems__item.--toggle
+					.problems__head.row
+						.problems__name Форсунка загрязнилась пылью и стружкой
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item.img(data-src="upload/problem-1.jpg" data-fancybox="" style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item.img(data-src="upload/problem-2.jpg" data-fancybox="" style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item.img(data-src="upload/problem-3.jpg" data-fancybox="" style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Карданный вал погнут
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item.img(data-src="upload/problem-1.jpg" data-fancybox="" style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item.img(data-src="upload/problem-2.jpg" data-fancybox="" style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item.img(data-src="upload/problem-3.jpg" data-fancybox="" style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #3
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item.img(data-src="upload/problem-1.jpg" data-fancybox="" style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item.img(data-src="upload/problem-2.jpg" data-fancybox="" style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item.img(data-src="upload/problem-3.jpg" data-fancybox="" style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #4
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item.img(data-src="upload/problem-1.jpg" data-fancybox="" style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item.img(data-src="upload/problem-2.jpg" data-fancybox="" style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item.img(data-src="upload/problem-3.jpg" data-fancybox="" style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+				.problems__item
+					.problems__head.row
+						.problems__name Популярная проблема #5
+						.problems__icon
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/></g></svg>
+					.problems__body
+						.problems__text.text
+							p Текст, описывающий ситуацию, её прчины, вариации и разновидности. Далее экспертная оценка: что с этим делать. Как устраняется какая причина и почему. Приводим картинки, изображения, фотографии, показывающие проблему и, возможно, методы её решения
+						.problems__imgs.imgs
+							.imgs__list
+								.imgs__item.img(data-src="upload/problem-1.jpg" data-fancybox="" style="background-image: url('upload/problem-1.jpg')")
+								.imgs__item.img(data-src="upload/problem-2.jpg" data-fancybox="" style="background-image: url('upload/problem-2.jpg')")
+								.imgs__item.img(data-src="upload/problem-3.jpg" data-fancybox="" style="background-image: url('upload/problem-3.jpg')")
+						a.problems__btn.btn.--border-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Записаться на диагностику
+
+
+
+	.guarantee.bg-gray
+		.case
+			.guarantee__wrap.row
+				.guarantee__content
+					.guarantee__title.h2 Личная гарантия собственника
+					.guarantee__quote Текст обращения собственника, рассказывающий про качество, ответственность и опыт. Про то, что каждый клиент может напрямую обратиться по личному номеру, чтобы разрешить какую-либо возникшую ситуацию.
+					.guarantee__contacts.row.i-mid
+						.guarantee__call.row.i-mid
+							.guarantee__call-title Вот мой телефон:  
+							.guarantee__call-phone #[a(href="tel:+79991233377") +7 (999) 123-33-77]
+
+						+socials('guarantee__socials socials')
+					.guarantee__persona.persona.row
+						.persona__signature
+							+img('signature.png')
+						.persona__text
+							.persona__name Роман Пеньков
+							.persona__desc Основатель и владелец сервиса
+				.guarantee__img
+					+img('ceo.png')
+
+	.diagnostics.bg(style="background-image: url('upload/bgs/bg-diagnostics.jpg')")
+		.case
+			.diagnostics__title.h2 Комплексная диагностика по 67 пунктам за #[b.price-old 3600] #[b.c-orange 1000 рублей]
+			.diagnostics__subtitle.h4 По окончанию диагностики Вы получите заказ-наряд с рекомендациями и пояснениями о их критичности. Акция действует при первом посещении.
+			.diagnostics__form.form.row.between
+				.form__item.form__input.input.--md.--bb-white.--white.--icon.--name.--w-lg
+					.input__wrap
+						label.input__icon!=icon.user
+						label.input__title Ваше имя
+						input.input__area(type="text" name="")
+				.form__item.form__input.input.--md.--bb-white.--white.--icon.--phone.--w-lg
+					.input__wrap
+						label.input__icon!=icon.phone
+						label.input__title Номер телефона
+						input.input__area(type="text" name="")
+				button.form__item.form__btn.btn.--bg-orange.--md.--w-sm Оставить заявку
+				.form__item.form__policy.tac.--white.--mt-lg Оставляя заявку, Вы соглашаетесь с #[a(href="javascript:;" target="_blank") Политикой конфиденциальности]
+
+	.advantages
+		.case
+			.advantages__list
+				.advantages__item
+					.advantages__content
+						.advantages__title.h2 Гарантия от 1 года #[br]на запчасти и #[br]выполненные работы
+						.advantages__text.text
+							p Мы уверены в качестве наших работ и запчастей. Поэтому смело даём гарантию от 1 года.
+							p Любой недостаток в работе или запчасти в этот период будет выявлен и устранен бесплатно.
+					.advantages__img-wrap.--engine
+						.advantages__img
+							+img('engine.png')
+						.advantages__icon
+							+img('icons/security.svg')
+
+
+				.advantages__item
+					.advantages__content
+						.advantages__title.h2 Оригинальные запчасти напрямую из Европы
+						.advantages__text.text
+							ul
+								li Используем только оригинальные запасные части
+								li Избегаем наценок представительства и дилеров
+								li За счёт этого держим низкие цены
+								li Для подстраховки заключены договора на оптовую поставку со всеми московскими официальными дилерами
+					.advantages__img-wrap.--car
+						.advantages__img
+							+img('land-rover-2.png')
+						.advantages__icon
+							+img('map.png')
+
+	.share.bg(style="background-image: url('upload/bgs/bg-order.jpg')")
+		.case
+			.share__title.h2 Получите #[b.c-orange скидку 30%] на первый ремонт
+			.share__subtitle.h3 Пройдите опрос: ответьте на 3 вопроса и получите скидку 30% на первый ремонт + кэшбэк от 5% до 11%
+			a.share__btn.btn.--bg-orange.--md(data-fancybox data-src="#popup-order" href="javascript:;") Пройти опрос
+
+	.office
+		.case
+			.office__wrap.row.i-top
+				.office__content
+					.office__title.h2 Комфортная зона ожидания
+					.office__text.text
+						p Мы вложили душу в ремонт зоны приёмки и ожидания автомобиля. Наши клиенты — наши гости. Мы с удовольствием угостим вас свежесваренным кофе, чаем или холодными напитками.
+						p Мы готовы утверждать, что у нас самые комфортные условия ожидания. Потому что делали мы их как для себя!
+					.office__desc
+						.office__desc-list.row
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/coffee.svg')
+								.office__desc-title Зона ожидания
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/laptop-wifi.svg')
+								.office__desc-title Рабочие места
+							.office__desc-item
+								.office__desc-icon
+									+img('icons/pacifier.svg')
+								.office__desc-title Детский уголок
+				.office__slider.slider
+					.slider__list.arrows.--white
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
+						.slider__item.bg(style="background-image: url('upload/office-1.jpg')")
+
+	.team.bg-gray
+		.case
+			.team__title.h2 Команда экспертов по работе с Land Rover
+			.team__list.arrows.--gray.dots
+				-
+					var teamItem = [
+						'team-1.jpg',
+						'Роман Брэдеску',
+						'Мастер-приёмщик'
+					]
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+				+team(teamItem[0], teamItem[1], teamItem[2])
+
+				
+
+	.photos.bg-gray
+		.case
+			.photos__title.h2 Добро пожаловать в сервис Романа Пенькова
+		.photos__list.arrows.dots.--gray
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-2.jpg" data-fancybox="photos" style="background-image: url('upload/photo-2.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-2.jpg" data-fancybox="photos" style="background-image: url('upload/photo-2.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-2.jpg" data-fancybox="photos" style="background-image: url('upload/photo-2.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-2.jpg" data-fancybox="photos" style="background-image: url('upload/photo-2.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-1.jpg" data-fancybox="photos" style="background-image: url('upload/photo-1.jpg')")
+			a.photos__item.bg(href="upload/photo-2.jpg" data-fancybox="photos" style="background-image: url('upload/photo-2.jpg')")
+
+	.recommend.bg(style="background-image: url('upload/bgs/bg-recommend.jpg')")
+		.case
+			.recommend__wrap.row
+				.recommend__content
+					.recommend__title.h2 Получите рекомендации по решению проблемы. #[b.c-orange Бесплатно!]
+					.recommend__subtitle.h4 За время работы мы видели множество случаев и зачастую можем дать полезные рекомендации даже по телефону.
+					.recommend__form.form.row
+						.form__item.form__input.input.--bb-white.--white.--icon.--md.--name.--w-md
+							.input__wrap
+								label.input__icon!=icon.user
+								label.input__title Ваше имя
+								input.input__area(type="text" name="")
+						.form__item.form__input.input.--bb-white.--white.--icon.--md.--phone.--w-md
+							.input__wrap
+								label.input__icon!=icon.phone
+								label.input__title Номер телефона
+								input.input__area(type="text" name="")
+						button.form__item.form__btn.btn.--bg-orange.--md.--sm.--w-sm.--mt-md.--line.--line-op Оставить заявку
+						.form__item.form__policy.--mt-sm.--white.--sm Оставляя заявку, Вы соглашаетесь с #[a(href="javascript:;" target="_blank") Политикой конфиденциальности]
+				.recommend__master.master
+					.master__text
+						.master__name Андрей Свидерский
+						.master__desc Мастер-приёмщик, #[br]10 лет опыта работы с Land Rover
+					.master__img
+						+img('master.png')
+
+	.contacts
+		.contacts__wrap
+			.contacts__title.h2 Контакты
+			.contacts__text
+				p #[strong Телефон:]  #[a(href="tel:+74952412989") +7(495)241-29-89]
+				p #[strong Email:] #[a(href="mailto:info@lr-premium.ru") info@lr-premium.ru]
+				p #[strong Адрес:] Москва, Киевская, 14
+				p #[strong Часы работы:] Пн-Пт – 9:00-20:00
+			+socials('contacts__socials socials --lg')
+
+		.contacts__map.map
+			script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU")
+			script.
+				ymaps.ready(function () {
+					var myMap = new ymaps.Map('map', {
+						center: [55.742722, 37.558643],
+						zoom: 15,
+						controls: []
+					}, {
+							searchControlProvider: 'yandex#search'
+					}),
+					MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+							'<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+					),
+					myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+						iconLayout: 'default#image',
+					})
+					myMap.geoObjects.add(myPlacemark);
+					myMap.behaviors.disable('scrollZoom');
+				});
+			.map-wrap#map
+
+	.we(style="background-image: url('upload/bgs/bg-hello.png')")
+		.case
+			.we__wrap.row
+				.we__content
+					.we__title.h1 История основания
+					.we__text Немного истории основания сервиса, рассказать буквально в 2 абзацах о том что почему и как, какие ценности, почему они такие и почему это самый лучший сервис ленд ровер
+					.we__counts.counts
+						.counts__list.row
+							.counts__item
+								.counts__count 2014
+								.counts__text год основания
+							.counts__item
+								.counts__count 10 #[span лет]
+								.counts__text средний опыт #[br]работы механиков
+							.counts__item
+								.counts__count 9057
+								.counts__text клиентов обслужено
+							.counts__item
+								.counts__count 30
+								.counts__text человек в команде
+				.we__img
+					+img('we.png')
+
+
+	
+	.content
+		.case
+			.content__title.h2.tac Lorem ipsum dolor sit amet
+			.content__text.text
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				h2 Lorem ipsum dolor sit amet
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				h3 Lorem ipsum dolor sit amet
+				ul
+					li Lorem ipsum dolor sit amet
+					li Lorem ipsum dolor sit amet
+					li Lorem ipsum dolor sit amet
+
+
